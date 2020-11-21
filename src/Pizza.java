@@ -1,4 +1,6 @@
-public class Pizza {
+import java.io.Serializable;
+
+public class Pizza implements Serializable{
     @Override
     public String toString() {
         return "Pizza{" +
